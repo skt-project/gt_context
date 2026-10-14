@@ -30,7 +30,7 @@ File ini adalah indeks ringkas. Ia tidak menyalin isi repository. Perbarui denga
 | [context/00-overview.md](../../context/00-overview.md) | Ikhtisar konteks | active | CONFIRMED | Peta isi knowledge base dan batas apa yang sudah diketahui. |
 | [context/01-personal-profile.md](../../context/01-personal-profile.md) | Profil pribadi | active | CONFIRMED | Identitas mesin yang teramati. Hubungan antar nama belum dikonfirmasi. |
 | [context/02-working-style.md](../../context/02-working-style.md) | Gaya kerja | active | CONFIRMED | Kebiasaan yang terlihat dari aturan Cursor. Penerapannya di luar Cursor belum dikonfirmasi. |
-| [context/03-current-priorities.md](../../context/03-current-priorities.md) | Prioritas saat ini | active | CONFIRMED | Satu permintaan yang sedang dikerjakan. Prioritas lain belum diketahui. |
+| [context/03-current-priorities.md](../../context/03-current-priorities.md) | Prioritas saat ini | active | CONFIRMED | Knowledge base diminta memuat seluruh aturan, matrix, dan dokumen tertulis. |
 | [context/04-long-term-goals.md](../../context/04-long-term-goals.md) | Tujuan jangka panjang | draft | UNKNOWN | Tujuan pribadi belum diketahui. Misi repository dicatat terpisah di ikhtisar. |
 | [context/05-preferences.md](../../context/05-preferences.md) | Preferensi | active | CONFIRMED | Bahasa dokumen dan preferensi Cursor yang sudah terlihat. |
 | [context/06-known-constraints.md](../../context/06-known-constraints.md) | Batasan yang diketahui | active | CONFIRMED | Batasan alat dan repository yang terverifikasi pada tanggal audit. |
@@ -44,14 +44,19 @@ File ini adalah indeks ringkas. Ia tidak menyalin isi repository. Perbarui denga
 | [docs/onboarding/penerus.md](../../docs/onboarding/penerus.md) | Onboarding penerus | active | CONFIRMED | Cara melanjutkan sistem ini bila maintainer utama tidak tersedia. |
 | [docs/onboarding/README.md](../../docs/onboarding/README.md) | Indeks onboarding | active | CONFIRMED | Lima jalur baca untuk manusia, AI, maintainer, penerus, dan tim eksternal. |
 | [docs/onboarding/tim-eksternal.md](../../docs/onboarding/tim-eksternal.md) | Onboarding tim eksternal | active | CONFIRMED | Jalur baca sempit untuk tim yang hanya perlu satu proyek. |
-| [knowledge/business/README.md](../../knowledge/business/README.md) | Pengetahuan bisnis | draft | UNKNOWN | Konteks bisnis pribadi belum didokumentasikan. |
+| [knowledge/business/aturan-bisnis.md](../../knowledge/business/aturan-bisnis.md) | Aturan bisnis | active | CONFIRMED | Aturan channel, migrasi bulanan, grading toko, dan pola ETL yang tertulis di sumber. |
+| [knowledge/business/matrix-bisnis.md](../../knowledge/business/matrix-bisnis.md) | Matrix bisnis | active | CONFIRMED | Matrix notasi stok, perbedaannya dengan implementasi, dan matrix kolom PO Portal. |
+| [knowledge/business/README.md](../../knowledge/business/README.md) | Pengetahuan bisnis | active | CONFIRMED | Peran pribadi belum diketahui. Aturan dan matrix tertulis sudah dikutip. |
 | [knowledge/decisions/0001-sumber-kebenaran-dan-berkas-generated.md](../../knowledge/decisions/0001-sumber-kebenaran-dan-berkas-generated.md) | ADR 0001 sumber kebenaran | active | CONFIRMED | Dokumen sumber diedit manusia. Digest AI dihasilkan dan boleh ditimpa. |
 | [knowledge/decisions/0002-visibilitas-repository.md](../../knowledge/decisions/0002-visibilitas-repository.md) | ADR 0002 visibilitas repository | proposed | CONFIRMED | Rekomendasi menjadikan repository private sebelum push. Keputusan pemilik masih terbuka. |
 | [knowledge/decisions/README.md](../../knowledge/decisions/README.md) | Indeks keputusan | active | CONFIRMED | Dua ADR awal: digest generated, dan visibilitas repository yang masih proposed. |
 | [knowledge/glossary.md](../../knowledge/glossary.md) | Glosarium | active | CONFIRMED | Arti status kepercayaan, sensitivitas, dan folder khusus. |
+| [knowledge/indexes/dokumen-tertulis.md](../../knowledge/indexes/dokumen-tertulis.md) | Indeks dokumen tertulis | active | CONFIRMED | Daftar dokumen markdown, SQL, dan aturan yang ditemukan. Isi credential tidak disalin. |
+| [knowledge/indexes/README.md](../../knowledge/indexes/README.md) | Indeks sumber tertulis | active | CONFIRMED | Penunjuk ke daftar dokumen yang ditemukan di folder perusahaan dan repository terkait. |
 | [knowledge/lessons-learned/README.md](../../knowledge/lessons-learned/README.md) | Lesson learned | active | CONFIRMED | Belum ada lesson learned. Template tersedia. |
 | [knowledge/research/README.md](../../knowledge/research/README.md) | Riset | active | CONFIRMED | Belum ada catatan riset. Template tersedia. |
-| [knowledge/technical/README.md](../../knowledge/technical/README.md) | Pengetahuan teknis | draft | UNKNOWN | Daftar keterampilan belum diisi. Toolchain yang terpasang ada di systems. |
+| [knowledge/technical/aturan-kode.md](../../knowledge/technical/aturan-kode.md) | Aturan kode | active | CONFIRMED | Aturan yang tertulis untuk Airflow on-prem, deploy DAG, dan tabel yang tidak boleh ditimpa. |
+| [knowledge/technical/README.md](../../knowledge/technical/README.md) | Pengetahuan teknis | draft | UNKNOWN | Keterampilan pribadi belum diisi. Aturan kode Airflow sudah dikutip. |
 | [operations/checklists/perubahan-knowledge-base.md](../../operations/checklists/perubahan-knowledge-base.md) | Checklist perubahan | active | CONFIRMED | Checklist sebelum commit knowledge base. |
 | [operations/incident-log.md](../../operations/incident-log.md) | Log insiden | active | CONFIRMED | Belum ada insiden. |
 | [operations/maintenance-log.md](../../operations/maintenance-log.md) | Log maintenance | active | CONFIRMED | Scaffold awal ditulis di clone lokal dan tidak di-push. |
@@ -62,6 +67,9 @@ File ini adalah indeks ringkas. Ia tidak menyalin isi repository. Perbarui denga
 | [projects/archived/README.md](../../projects/archived/README.md) | Proyek diarsipkan | active | CONFIRMED | Folder proyek arsip masih kosong. |
 | [projects/catalog/direktori-lokal.md](../../projects/catalog/direktori-lokal.md) | Katalog direktori lokal | active | CONFIRMED | Checkout dan folder di D:\\GitHub. Status siklus hidup belum dikonfirmasi. |
 | [projects/completed/README.md](../../projects/completed/README.md) | Proyek selesai | active | CONFIRMED | Folder proyek selesai masih kosong. |
+| [projects/pipelines/arsitektur-data.md](../../projects/pipelines/arsitektur-data.md) | Arsitektur data pipeline | active | CONFIRMED | Aliran sumber, Airflow, BigQuery, dan konsumen yang ditulis di overview pipeline. |
+| [projects/pipelines/katalog-dag.md](../../projects/pipelines/katalog-dag.md) | Katalog DAG Airflow | active | CONFIRMED | dag_id, jadwal, owner, dan deskripsi dari file DAG di checkout lokal. |
+| [projects/pipelines/README.md](../../projects/pipelines/README.md) | Indeks pipeline | active | CONFIRMED | Peta pipeline yang tertulis. Katalog DAG dihasilkan dari checkout lokal. |
 | [projects/README.md](../../projects/README.md) | Indeks proyek | active | CONFIRMED | Tidak ada proyek yang status siklus hidupnya sudah dikonfirmasi. |
 | [README.md](../../README.md) | Global Context System | active | CONFIRMED | Pintu masuk knowledge base untuk manusia dan AI. |
 | [SECURITY.md](../../SECURITY.md) | Keamanan | active | CONFIRMED | Aturan secret, visibilitas repository, dan data yang tidak boleh disimpan. |

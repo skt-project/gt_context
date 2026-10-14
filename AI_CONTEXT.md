@@ -30,7 +30,7 @@ Membangun sumber kebenaran yang bisa dibaca manusia baru dan AI baru: identitas 
 
 ## Proyek aktif
 
-Belum ada proyek yang statusnya dikonfirmasi aktif oleh pemilik. Direktori lokal yang ditemukan dicatat di [projects/catalog/direktori-lokal.md](projects/catalog/direktori-lokal.md). Folder [projects/active/](projects/active/README.md) sengaja kosong.
+Belum ada proyek yang statusnya dikonfirmasi aktif oleh pemilik. Direktori lokal yang ditemukan dicatat di [projects/catalog/direktori-lokal.md](projects/catalog/direktori-lokal.md). Pipeline, aturan bisnis, dan matrix yang tertulis ada di [projects/pipelines/README.md](projects/pipelines/README.md). Folder [projects/active/](projects/active/README.md) sengaja kosong.
 
 ## Aturan kerja
 

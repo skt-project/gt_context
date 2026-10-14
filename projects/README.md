@@ -13,7 +13,7 @@ summary: "Tidak ada proyek yang status siklus hidupnya sudah dikonfirmasi."
 
 # Proyek
 
-Folder `active/`, `completed/`, dan `archived/` menunggu konfirmasi status. Checkout yang ditemukan dicatat di [katalog direktori lokal](catalog/direktori-lokal.md).
+Folder `active/`, `completed/`, dan `archived/` menunggu konfirmasi status. Checkout yang ditemukan dicatat di [katalog direktori lokal](catalog/direktori-lokal.md). Pipeline yang tertulis ada di [pipelines](pipelines/README.md).
 
 Gunakan [template proyek](templates/project.md) saat sebuah proyek siap dipindahkan ke folder siklus hidup.
 

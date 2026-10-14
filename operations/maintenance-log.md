@@ -15,4 +15,5 @@ summary: "Scaffold awal ditulis di clone lokal dan tidak di-push."
 
 | Tanggal | Pekerjaan | Hasil |
 | --- | --- | --- |
-| 2026-10-14 | Audit remote dan inventaris read-only, lalu tulis scaffold lokal | Commit lokal menyusul di sesi yang sama. Push tidak dilakukan |
+| 2026-10-14 | Audit remote dan inventaris read-only, lalu tulis scaffold lokal | Commit `36b1b40` di-push ke `main` |
+| 2026-10-14 | Indeks dokumen tertulis, katalog DAG, aturan bisnis, dan matrix | Dihasilkan dari checkout lokal. Secret tidak disalin |
