@@ -17,6 +17,7 @@ Format mengikuti Keep a Changelog. Versi belum ditandai sebagai rilis GitHub.
 
 ## [Unreleased]
 
+- Tambahkan runbook migrasi bulanan dari tabel MTD ke histori.
 - Catat aturan bisnis, matrix, katalog DAG, dan indeks dokumen tertulis.
 
 ## [0.1.0] - 2026-10-14

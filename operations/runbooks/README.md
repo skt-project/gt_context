@@ -14,5 +14,6 @@ summary: "Runbook yang sudah ditulis untuk knowledge base ini."
 # Runbook
 
 - [Validasi dan pemindaian](validasi-dan-pemindaian.md)
+- [Migrasi MTD ke histori](migrasi-mtd-ke-hist.md)
 
 Runbook layanan production proyek lain belum dipindahkan ke sini.

@@ -40,6 +40,8 @@ Sumber: `BUSINESS_RULES.md`, status dokumen itu "seeded 2026-07-17" dan meminta 
 - View `_all_mv` menggabungkan MTD dan histori.
 - Sell-out `repsly.ind_purchase_orders_v` tidak punya langkah migrasi. Tabelnya satu riwayat penuh.
 
+Langkah operasional, pemeriksaan sebelum migrasi, dan batas SQL yang belum tersimpan ada di [runbook migrasi MTD ke histori](../../operations/runbooks/migrasi-mtd-ke-hist.md).
+
 ## Pola ETL tertulis
 
 Sumber: overview pipeline.

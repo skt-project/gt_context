@@ -20,6 +20,7 @@ Folder ini memuat pipeline yang tertulis di sumber perusahaan. Status siklus hid
 | [Arsitektur data](arsitektur-data.md) | Sumber, channel, dataset, dan aliran yang ditulis overview |
 | [Katalog DAG](katalog-dag.md) | `dag_id` dan jadwal dari file di checkout |
 | [Aturan bisnis](../../knowledge/business/aturan-bisnis.md) | Migrasi, grading, pola ETL |
+| [Migrasi MTD ke histori](../../operations/runbooks/migrasi-mtd-ke-hist.md) | Tata cara bulanan `_mtd_t` ke `_hist_t` |
 | [Matrix bisnis](../../knowledge/business/matrix-bisnis.md) | Notasi stok dan matrix PO Portal |
 | [Aturan kode](../../knowledge/technical/aturan-kode.md) | Server Airflow dan larangan tulis |
 | [Indeks dokumen](../../knowledge/indexes/dokumen-tertulis.md) | Semua markdown dan SQL yang ditemukan |

@@ -61,6 +61,7 @@ File ini adalah indeks ringkas. Ia tidak menyalin isi repository. Perbarui denga
 | [operations/incident-log.md](../../operations/incident-log.md) | Log insiden | active | CONFIRMED | Belum ada insiden. |
 | [operations/maintenance-log.md](../../operations/maintenance-log.md) | Log maintenance | active | CONFIRMED | Scaffold awal ditulis di clone lokal dan tidak di-push. |
 | [operations/recurring-tasks.md](../../operations/recurring-tasks.md) | Tugas berulang | proposed | CONFIRMED | Tugas yang didefinisikan sistem ini, bukan jadwal pribadi yang sudah terbukti. |
+| [operations/runbooks/migrasi-mtd-ke-hist.md](../../operations/runbooks/migrasi-mtd-ke-hist.md) | Runbook migrasi MTD ke histori | active | CONFIRMED | Tata cara bulanan memindahkan DMS MTD ke hist, plus batas SQL yang belum tersimpan. |
 | [operations/runbooks/README.md](../../operations/runbooks/README.md) | Indeks runbook | active | CONFIRMED | Runbook yang sudah ditulis untuk knowledge base ini. |
 | [operations/runbooks/validasi-dan-pemindaian.md](../../operations/runbooks/validasi-dan-pemindaian.md) | Runbook validasi | active | CONFIRMED | Cara memeriksa metadata, secret, dan digest. |
 | [projects/active/README.md](../../projects/active/README.md) | Proyek aktif | active | CONFIRMED | Folder proyek aktif masih kosong. |
