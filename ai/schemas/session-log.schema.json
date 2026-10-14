@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/skt-project/gt_context/ai/schemas/session-log.schema.json",
+  "title": "AI session log",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["platform", "prompt", "goal"],
+  "properties": {
+    "timestamp": { "type": "string" },
+    "platform": { "type": "string", "minLength": 1 },
+    "model": { "type": "string" },
+    "workspace": { "type": "string" },
+    "project": { "type": "string" },
+    "prompt": { "type": "string", "minLength": 1 },
+    "goal": { "type": "string", "minLength": 1 },
+    "files_touched": { "type": "string" },
+    "decisions": { "type": "string" },
+    "important_output": { "type": "string" },
+    "follow_up": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "active", "paused", "completed", "archived", "proposed", "superseded"]
+    },
+    "persist_to_knowledge_base": {
+      "type": "string",
+      "enum": ["yes", "no", "unknown"]
+    },
+    "sensitivity": {
+      "type": "string",
+      "enum": ["public", "internal", "restricted"]
+    },
+    "session_id": { "type": "string" }
+  }
+}

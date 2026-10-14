@@ -1,0 +1,6 @@
+---
+description: Baca knowledge base sebelum mengubah repository ini
+alwaysApply: true
+---
+
+Repository ini adalah knowledge base. Sebelum pekerjaan substantif, baca README.md, AI_CONTEXT.md, AGENTS.md, context/00-overview.md, dan context/03-current-priorities.md. Jangan mengarang fakta. Jangan menulis secret. Jangan push kecuali pengguna memintanya secara eksplisit.

@@ -1,0 +1,44 @@
+name: Pembaruan pengetahuan
+description: Catat fakta, koreksi, atau proyek yang perlu masuk knowledge base
+title: "[context] "
+body:
+  - type: textarea
+    id: fact
+    attributes:
+      label: Fakta atau koreksi
+      description: Tulis klaim yang ingin disimpan. Jangan tempel secret.
+    validations:
+      required: true
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Kepercayaan
+      options:
+        - CONFIRMED
+        - INFERRED
+        - UNKNOWN
+        - OUTDATED
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Sumber
+      placeholder: Percakapan, file, atau perintah yang menjadi dasar fakta
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: Proyek
+      placeholder: Kosongkan jika belum diketahui
+  - type: dropdown
+    id: sensitivity
+    attributes:
+      label: Sensitivitas
+      options:
+        - public
+        - internal
+        - restricted
+    validations:
+      required: true

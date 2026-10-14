@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/skt-project/gt_context/ai/schemas/frontmatter.schema.json",
+  "title": "Knowledge document frontmatter",
+  "type": "object",
+  "required": [
+    "title",
+    "doc_type",
+    "status",
+    "confidence",
+    "owner",
+    "source",
+    "last_verified",
+    "next_review",
+    "sensitivity",
+    "summary"
+  ],
+  "properties": {
+    "title": { "type": "string", "minLength": 1 },
+    "doc_type": {
+      "type": "string",
+      "enum": ["overview", "profile", "policy", "guide", "template", "catalog", "audit", "reference", "log", "decision", "generated", "index"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "active", "paused", "completed", "archived", "proposed", "superseded"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["CONFIRMED", "INFERRED", "UNKNOWN", "OUTDATED"]
+    },
+    "owner": { "type": "string", "minLength": 1 },
+    "source": { "type": "string", "minLength": 1 },
+    "last_verified": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "next_review": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "sensitivity": {
+      "type": "string",
+      "enum": ["public", "internal", "restricted"]
+    },
+    "summary": { "type": "string", "minLength": 1 },
+    "fact_id": { "type": "string" },
+    "project_status": {
+      "type": "string",
+      "enum": ["unknown", "active", "paused", "completed", "archived"]
+    },
+    "generated": { "type": "string" }
+  }
+}
